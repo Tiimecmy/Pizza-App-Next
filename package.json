@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Tiimecmy.gitub.io/Pizza-App-Next.js",
   "name": "pizza-food",
   "version": "0.1.0",
   "private": true,
@@ -6,6 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "next lint"
   },
   "dependencies": {
@@ -15,5 +18,8 @@
     "next": "13.1.6",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
   }
 }
