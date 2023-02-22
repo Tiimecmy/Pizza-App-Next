@@ -7,7 +7,7 @@ const Product = () => {
   const [size, setSize] = useState(0);
   const pizza = {
     id: 1,
-    img: "/img/pizza.png",
+    img: "img/pizza.png",
     name: "CAMPAGNOLA",
     price: [799, 999, 1299],
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut blandit arcuin pretium molestie. Interdum et malesuada fames acme. Lorem ipsum dolorsit amet, consectetur adipiscing elit.",
@@ -27,15 +27,15 @@ const Product = () => {
         <h3 className={styles.choose}>Choose your size to eat!</h3>
         <div className={styles.sizes}>
           <div className={styles.size} onClick={() => setSize(0)}>
-            <Image src="/img/size.png" fill alt="sizeofpizza" />
+            <Image src="img/size.png" fill alt="sizeofpizza" />
             <span className={styles.number}>Small</span>
           </div>
           <div className={styles.size} onClick={() => setSize(1)}>
-            <Image src="/img/size.png" fill alt="sizeofpizza" />
+            <Image src="img/size.png" fill alt="sizeofpizza" />
             <span className={styles.number}>Medium</span>
           </div>
           <div className={styles.size} onClick={() => setSize(2)}>
-            <Image src="/img/size.png" fill alt="sizeofpizza" />
+            <Image src="img/size.png" fill alt="sizeofpizza" />
             <span className={styles.number}>Large</span>
           </div>
         </div>
