@@ -19,7 +19,7 @@ const Cart = () => {
           <tr className={styles.tr}>
             <td>
               <div className={styles.imgContainer}>
-                <Image src="/img/pizza.png" alt="products" fill style={{ objectFit: "cover" }} />
+                <Image src={"/img/pizza.png"} alt="products" fill style={{ objectFit: "cover" }} />
               </div>
             </td>
             <td>
@@ -43,7 +43,7 @@ const Cart = () => {
           <tr className={styles.tr}>
             <td>
               <div className={styles.imgContainer}>
-                <Image src="/img/pizza.png" alt="products" fill style={{ objectFit: "cover" }} />
+                <Image src={"/img/pizza.png"} alt="products" fill style={{ objectFit: "cover" }} />
               </div>
             </td>
             <td>

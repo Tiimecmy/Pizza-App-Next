@@ -41,7 +41,7 @@ const Order = () => {
         </div>
         <div className={styles.row}>
           <div className={statusClass(0)}>
-            <Image src="/img/paid.png" width={30} height={30} alt="paid" />
+            <Image src={"/img/paid.png"} width={30} height={30} alt="paid" />
             <span>Payment</span>
             <div className={styles.checkedIcon}>
               {" "}
@@ -49,7 +49,7 @@ const Order = () => {
             </div>
           </div>
           <div className={statusClass(1)}>
-            <Image src="/img/bake.png" width={30} height={30} alt="bake" />
+            <Image src={"/img/bake.png"} width={30} height={30} alt="bake" />
             <span>Preparing</span>
             <div className={styles.checkedIcon}>
               {" "}
@@ -57,7 +57,7 @@ const Order = () => {
             </div>
           </div>
           <div className={statusClass(2)}>
-            <Image src="/img/bike.png" width={30} height={30} alt="riding" />
+            <Image src={"/img/bike.png"} width={30} height={30} alt="riding" />
             <span>Incoming</span>
             <div className={styles.checkedIcon}>
               {" "}
@@ -65,11 +65,11 @@ const Order = () => {
             </div>
           </div>
           <div className={statusClass(3)}>
-            <Image src="/img/delivered.png" width={30} height={30} alt="delivered" />
+            <Image src={"/img/delivered.png"} width={30} height={30} alt="delivered" />
             <span>Delivered</span>
             <div className={styles.checkedIcon}>
               {" "}
-              <Image className={styles.checkedIcon} src="/img/checked.png" width={20} height={20} alt="check" />
+              <Image className={styles.checkedIcon} src={"/img/checked.png"} width={20} height={20} alt="check" />
             </div>
           </div>
         </div>
